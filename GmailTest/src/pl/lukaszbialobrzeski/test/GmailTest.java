@@ -29,7 +29,7 @@ public class GmailTest {
 
 	  
 	@Test(priority = 0)
-	  public void weryfikacjaStrony() {
+	  public void pageVerification() {
 		  String expectedTitle = "Gmail";
 		  String actualTitle = driver.getTitle();
 		  Assert.assertEquals(actualTitle, expectedTitle);
